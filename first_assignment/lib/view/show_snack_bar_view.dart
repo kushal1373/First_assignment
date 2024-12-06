@@ -10,7 +10,7 @@ class ShowSnackbarView extends StatefulWidget {
 class _ShowSnackbarViewState extends State<ShowSnackbarView> {
   _showSnackbar() {
     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-      content: Text("hello world1"),
+      content: Text("hello Everyone"),
       duration: Duration(seconds: 3),
     ));
   }
